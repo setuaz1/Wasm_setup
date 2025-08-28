@@ -1,0 +1,18 @@
+[package]
+name = "my_egui_app"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+eframe = { version = "0.27", features = ["glow"] }
+egui = "0.27"
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+web-sys = "0.3"
+console_error_panic_hook = "0.1"
+console_log = "0.2"
+log = "0.4"
+
