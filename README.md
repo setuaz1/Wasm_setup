@@ -1,1 +1,1 @@
-Template for future projects
+"Template for future projects"
